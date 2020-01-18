@@ -1,0 +1,152 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+body {
+    background: linear-gradient(to right, #136a8a, #267871);
+}
+
+.container {
+    width: 100%;
+    padding: 2em 1em;
+    overflow: hidden;
+    height: 100vh;
+    margin: auto;
+}
+
+.chat {
+    margin: auto;
+    max-width: 800px;
+    height: 100%;
+    border-radius: 30px;
+    padding: 2em;
+    background: #e8e8e8;
+    display: flex;
+    flex-flow: column;
+    overflow: hidden;
+}
+
+#message-container {
+    width: 100%;
+    flex-grow: 1;
+    overflow: scroll;
+    overflow-x: hidden;
+}
+
+form {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: center;
+    min-height: 40px;
+    max-height: 40px;
+}
+
+#message-input {
+    flex-grow: 1;
+    height: 100%;
+    border: none;
+    background: #fff;
+    border-radius: 10px;
+    outline: none;
+    color: #333;
+    padding: 1em;
+    font-size: 18px;
+}
+
+#send-button {
+    color: #fff;
+    text-transform: uppercase;
+    outline: none;
+    border: none;
+    background: linear-gradient(to right, #136a8a, #267871);
+    margin-left: 1em;
+    border-radius: 10px;
+    height: 100%;
+    width: 15%;
+    min-width: 90px;
+    cursor: pointer;
+}
+
+#send-button:hover {
+    background: linear-gradient(to right, #105c77, #1c5853);
+}
+
+.message {
+    display: flex;
+    flex-flow: row wrap;
+    width: 100%;
+    margin: 1em 0;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+}
+
+.message p {
+    background: #fff;
+    width: fit-content;
+    padding: 1em;
+    border-radius: 10px;
+    color: #333;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+}
+
+.myMessage {
+    justify-content: flex-end;
+}
+
+.myMessage p {
+    border-top-right-radius: 0;
+    background-color: #03448fbd;
+    color: #fff;
+}
+.myMessage p .date {
+    color: #fff;
+}
+
+.userMessage {
+    justify-content: flex-start;
+}
+
+.userMessage p {
+    border-top-left-radius: 0;
+}
+
+.info p {
+    background: transparent;
+    color: #3498db;
+    padding: 0;
+    position: relative;
+}
+.date {
+    display: block;
+    text-align: right;
+    position: relative;
+    margin-top: 5px;
+    bottom: 0px;
+    right: 0px;
+    font-size: 50%;
+    color: gray;
+}
+
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    background: #f1f1f1;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: #888;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: #555;
+}

@@ -1,0 +1,49 @@
+Arguments: 
+  C:\Program Files\nodejs\node.exe C:\Program Files (x86)\Yarn\bin\yarn.js start
+
+PATH: 
+  C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;D:\Program Files\Git\cmd;C:\Program Files\nodejs\;C:\ProgramData\chocolatey\bin;C:\Program Files (x86)\Yarn\bin\;C:\Users\pc4gaming\AppData\Local\Microsoft\WindowsApps;C:\Users\pc4gaming\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\pc4gaming\AppData\Roaming\npm;C:\Program Files\Genymobile\Genymotion\tools;C:\Users\pc4gaming\AppData\Local\.meteor;C:\Users\pc4gaming\AppData\Local\Yarn\bin;D:\Program Files\heroku\bin
+
+Yarn version: 
+  1.19.1
+
+Node version: 
+  12.8.0
+
+Platform: 
+  win32 x64
+
+Trace: 
+  SyntaxError: D:\Git\random-chat\package.json: Unexpected string in JSON at position 235
+      at JSON.parse (<anonymous>)
+      at C:\Program Files (x86)\Yarn\lib\cli.js:1625:59
+      at Generator.next (<anonymous>)
+      at step (C:\Program Files (x86)\Yarn\lib\cli.js:304:30)
+      at C:\Program Files (x86)\Yarn\lib\cli.js:315:13
+
+npm manifest: 
+  {
+    "name": "chat-app",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+      "start": "nodemon server.js"
+    },
+    "author": "",
+    "license": "ISC",
+    "homepage": "http://disko998.gihub.io/RandomChating"
+    "dependencies": {
+      "gh-pages": "^2.1.1",
+      "socket.io": "^2.3.0"
+    },
+    "devDependencies": {
+      "nodemon": "^1.19.4"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
