@@ -1,5 +1,5 @@
 # random-chat
-Random chat room for lonely persons :O
+Random chat room for lonely persons...
 
 ## Clone: 
 ```sh
