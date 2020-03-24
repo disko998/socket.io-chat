@@ -1,5 +1,5 @@
 # random-chat
-Random chat room for lonely persons...
+Socket.io, node chat app 
 
 ## Clone: 
 ```sh
